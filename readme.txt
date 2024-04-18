@@ -1,4 +1,6 @@
-The triangle_solitaire.py program (in SEMIAUTOPLAY mode) implements an n^3 algorithm for putting an arbitrary program in normal form. Merging uses a different algorithm than our article, namely it uses super(affine lines) which need not be horizontal. The merging process is not confluent if you simply click on triangles at random. Normalization uses the same O(n^3) algorithm as the paper.
+The triangle_solitaire.py program (in SEMIAUTOPLAY mode) implements an n^3 algorithm for putting an arbitrary program in normal form in the triangle solitaire process.
+
+Merging uses a different algorithm than our article, namely it uses super(affine lines) which need not be horizontal. The merging process is not confluent if you simply click on triangles at random. Normalization uses the same O(n^3) algorithm as the paper.
 
 
 There are three modes:
